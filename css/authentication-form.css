@@ -24,9 +24,66 @@ p {
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
 
+
+.content {
+  display: flex;
+  gap:  30px;
+}
+
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-bottom: 30px;
+}
+
+#sign-in-form,
+#sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-input-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-submit-control {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.form-submit-control a {
+  align-self: center;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  gap: 30px;
+}
+
+.form-group-horizontal-control .form-input-control {
+  width: 100%;
+}
+
+.form-checkbox-control label,
+.form-radio-control label {
+  font-weight: normal;
+}
+
+
+select {
+  height: 30px;
 }
 
 .subtext {
